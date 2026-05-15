@@ -4,7 +4,7 @@ import Figlet
 @main
 struct FigletTool: ParsableCommand {
   @Option(help: "Specify the input")
-  public var input: String
+  public var input: String = "Hi, Swift!"
 
   public func run() throws {
     Figlet.say(self.input)

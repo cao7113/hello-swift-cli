@@ -4,6 +4,3 @@ tasks:
   default: swift run MyCLI --input 'hi swift'
   build: swift build
   run-it: .build/debug/MyCLI
-
-  setup: |
-    swift package init --name MyCLI --type executable
